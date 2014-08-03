@@ -1,5 +1,5 @@
 {
-  "name": "origiriBattle",
+  "name": "ProjTwoServer",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "express": "3.2.6",
-    "jade": "*",
-    "socket.io": "^1.0.4",
-    "node-uuid": "*"
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "jade": "*"
   }
 }
