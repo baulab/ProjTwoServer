@@ -5,13 +5,13 @@
  * - use restful style
  * - setup database setting
  * */
-var http			= require('http');
-var express	= require('express');
-var path			= require('path');
+var http		= require('http');
+var express		= require('express');
+var path		= require('path');
 var restify		= require('express-restify-mongoose');
 var mongoose	= require('mongoose');
 mongoose.connect('mongodb://localhost/todos');
-var db				= mongoose.connection;
+var db			= mongoose.connection;
 
 var ToDoSchema = new mongoose.Schema({
 	text: { type: String, required: true },
