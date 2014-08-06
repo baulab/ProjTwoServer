@@ -23,6 +23,5 @@
 2. Make sure that you had installed [Node.js](http://nodejs.org) & [MongoDB](http://www.mongodb.org/).
 3. Create folder `data` in project folder.
 4. Open command prompt from MongoDB/bin(shift+right click), execute `mongod --dbpath=ProjTwoServerPath/data`
-5. From step 4, execute `mongo`
-6. Open new command prompt, execute `npm install` in project folder to install node modules.
-7. execute `npm start` or `node app.js` to start the server at `localhost:3000`
+5. Open new command prompt, execute `npm install` in project folder to install node modules.
+6. execute `npm start` or `node app.js` to start the server at `localhost:3000`
